@@ -22,7 +22,7 @@
 //! println!("Patch version: {}", header.version);
 //!
 //! // Create configuration
-//! let config = ZiPatchConfig::builder("/path/to/game")
+//! let mut config = ZiPatchConfig::builder("/path/to/game")
 //!     .platform(Platform::Win32)
 //!     .ignore_missing(true)
 //!     .build();

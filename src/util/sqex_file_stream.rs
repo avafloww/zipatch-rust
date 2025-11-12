@@ -29,7 +29,6 @@ impl SqexFileStream {
                 .read(true)
                 .write(true)
                 .create(true)
-                .truncate(true)
                 .open(path)?
         } else {
             OpenOptions::new().read(true).open(path)?
